@@ -1,31 +1,109 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="viewport" charset="utf-8">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="mystyle.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
-<body onload="startTime()">
+<body onload="startTime()" style="background-color: ">
 
-	<div class="row">
-		<section class="header-top" title="Header_Section">
-
-			<center>
-				<nav style="background-color: yellow">
+	<div class="header-top" title="Header_Section">
+		<br>
+		<div class="row">
+			<div class="col-1">_</div>
+			<div class="col-10">
+				<nav style="background-color: #ffff00;">
 					<ul style="list-style: none;">
-						<li><a href="www.fb.com/" class="fa fa-facebook"></a></li>
+						<div class="row">
+							<div class="col-4">
+								<li><a href="#" class="fa fa-home"> Balaju Kathmandu</a></li>
+							</div>
+							<div class="col-4">
+								<li><a href="#" class="fa fa-phone"> +977 9849642544</a></li>
+							</div>
+							<div class="col-4">
+								<li><a href="#" class="fa fa-flickr"> bijay.iwacademy@gmail.com</a></li>
+							</div>
+						</div>
 					</ul>
 				</nav>
-				<div class="image" onclick="myFunc();">
-					<img id="nImg" src="images/ing.jpg" style="height: 200px; width: 200px;" alt="profile_image" title="Profile_Picture">
-					<div id="txt"></div>
-				</div>
-			</center>
-		</section>
+			</div>
+			<!-- div class="col-3"></div> -->
+		</div>
 	</div>
+	<div>
+		<center>
+			<div class="image" onmouseover="myFunc()" style="margin-top: -180px;">
+				<img id="nImg" src="images/ing.jpg" style="height: 250px; width: 250px; border-radius: 50%;" alt="profile_image" title="Profile_Picture">
+			</div>
+			<div>
+				<ul id="intro" style="list-style: none;">
+					<li><strong style="font-size: 20px;">Name: Bijay Thapa</strong></li>
+					<strong><li id="txt"></li></strong>
+					<li style="color: #66ccff;">An Enthusiastic Django Developer <br> Good Learner</li>
+					<li><strong style="font-size: 20px;">DOB: yyyy/mm/dd</strong></li>
+					<li><strong>Email:</strong> thapabijay986@gmail.com</li>
+					<li><strong>Interest:</strong> Back-end Development in Python and Java </li>
+					<li>
+						<a href="www.fb.com" class="fa fa-facebook"></a>
+						<a href="www.fb.com" class="fa fa-instagram"></a>
+						<a href="www.fb.com" class="fa fa-twitter"></a>
+						<a href="www.fb.com" class="fa fa-linkedin"></a>
+						<a href="www.fb.com" class="fa fa-tumblr"></a>
+					</li>
+				</ul>
+			</div>
+		</center>
+	</div>
+	<hr style="color: green">
+	<div class="row">
+		<div class="col-3">
+			<h3>About</h3>
+		</div>
+		<div class="col-7">
+			<p>I am a Computer Science Student currently in my final years of my bachelors. I am in my learning phase. I am interested in programming, specifically with python.Til now I have no experience working in/for a company. But I am eager to work and involve in some real life projects. Open to the opportunities that will be provided.</p>
+		</div>
+	</div>
+	<hr style="color: green">
+	<div class="row">
+		<div class="col-3">
+			<h3>Work Experience</h3>
+		</div>
+		<div class="col-7">
+			<p>I am a Computer Science Student currently in my final years of my bachelors. I am in my learning phase. I am interested in programming, specifically with python.Til now I have no experience working in/for a company. But I am eager to work and involve in some real life projects. Open to the opportunities that will be provided.</p>
+		</div>
+	</div>
+	<hr style="color: green">
+	<div class="row">
+		<div class="col-3">
+			<h3>Knowledge</h3>
+		</div>
+		<div class="col-7">
+			<p>I am a Computer Science Student currently in my final years of my bachelors. I am in my learning phase. I am interested in programming, specifically with python.Til now I have no experience working in/for a company. But I am eager to work and involve in some real life projects. Open to the opportunities that will be provided.</p>
+		</div>
+	</div>
+	<hr style="color: green">
+	<div class="row">
+		<div class="col-3">
+			<h3>Education</h3>
+		</div>
+		<div class="col-7">
+			<p>I am a Computer Science Student currently in my final years of my bachelors. I am in my learning phase. I am interested in programming, specifically with python.Til now I have no experience working in/for a company. But I am eager to work and involve in some real life projects. Open to the opportunities that will be provided.</p>
+		</div>
+	</div>
+	<hr style="color: green">
+	<div class="row">
+		<div class="col-12">
+			<!-- <img src="images/background.jpg" style="height: 200px; "> -->
+		</div>
+		<footer style="color: white; background-color: #12102b;">
+			<center><strong><p>© 2018 Copyright: <a href="https://wwww.dbijaya.github.com/"> Bijay Thapa</a></p></strong></center>
+			<br>
+		</footer>
+	</div>
+	
 </body>
 
 <script type="text/javascript">
