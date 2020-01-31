@@ -1,10 +1,3 @@
-// function getListValue(){
-// 	var list = document.getElementById("listValue").value;
-// 	document.getElementById("disp1").innerHTML = list;
-// 	console.log(list);
-// 	alert(list);
-// }
-
 loadEvents();
 function loadEvents(){
 	// document : a global object : used for modifing document(web-page) contents
@@ -23,13 +16,14 @@ function loadEvents(){
 //An event handler function is always given an argument when it is called.
 //That argument is an Event object. In this case, it is being represented by "e"
 function submit(e) {
+	
 	e.preventDefault();
 	let listValue;
 	let input = document.querySelector('input');
-	if (input.value != '') {
+	if (input.value != '')
 		addList(input.value);
-	}
 	input.value='';
+
 }
 function addList(list){
 	// querySelector() : returns the first element that matches a specified CSS selector(s) in the document
@@ -42,7 +36,6 @@ function addList(list){
 	// .appendChild() or insertBefore()
 	ul.appendChild(li);
 	document.querySelector('listHere').style.display = 'block';
-
 	// var arr = [`<input type="checkbox">`,`<label>${list}</label>`,`<span class="delete">X</span>`]
 	// for (var i = 0; i < 3; i++) {
 	// 	// k[i]
